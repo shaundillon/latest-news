@@ -1,0 +1,52 @@
+.search-result {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: #EEF4F2;
+  border: 1px solid #7B9BA6;
+}
+
+.search-result__image {
+  width: 20%;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.search-result__image img {
+  max-width: 100%;
+}
+
+.search-result__title {
+  font-size: 22px;
+  margin: 0 0 20px;
+  color: #415B76;
+  text-decoration: underline;
+}
+
+.search-result__title:hover {
+  text-decoration: none;
+}
+
+.search-result__title button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+}
+
+.search-result__description, .search-result__author {
+  font-size: 16px;
+  margin: 0 0 10px;
+}
+
+.search-result__author {
+  font-style: italic;
+}

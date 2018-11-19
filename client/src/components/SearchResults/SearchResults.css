@@ -1,0 +1,36 @@
+.search-results {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.search-results__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.search-form {
+  background: #CDD6D5;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.search-form__label {
+  font-size: 24px;
+  color: #415B76;
+  margin-right: 20px;
+}
+
+.search-form__field {
+  background: #EEF4F2;
+  border: 1px solid #415B76;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.search-message {
+  text-align: center;
+  margin: 20px;
+}

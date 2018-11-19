@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "latest-news",
+  "version": "1.0.0",
+  "description": "Displays the news, courtesy of newsapi.org",
+  "scripts": {
+    "install": "(cd ./client && yarn) && (cd ./server && yarn)",
+    "client": "(cd ./client && yarn start)",
+    "build": "(cd ./client && yarn build)",
+    "server": "(cd ./server && yarn start)",
+    "start": "echo 'Did you mean `yarn server` or `yarn client`?'"
+  }
+}
